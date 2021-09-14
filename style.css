@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg)
+    no-repeat;
+}
+
+.container {
+  width: 27vw;
+  margin: auto;
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.image {
+  height: 25vh;
+  background: url(./images/illustration-hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.content {
+  background: white;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 5vh;
+}
+
+.content h2 {
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6;
+}
+
+.content .explanation {
+  margin-bottom: 3vh;
+}
+
+.annual-plan {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4vh;
+  background: hsl(225, 100%, 98%);
+  padding: 2vh 1.3vw;
+  border-radius: 10px;
+}
+
+.annual-plan .pricing {
+  margin-top: 1vh;
+  margin-right: 3vw;
+}
+
+.annual-plan h5 {
+  font-weight: 900;
+}
+
+.annual-plan p {
+  padding-top: 0.5vh;
+}
+
+.annual-plan a {
+  align-self: center;
+  font-size: 14px;
+}
+
+.annual-plan a:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.buttons a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.buttons .proceed {
+  margin-bottom: 2vh;
+  color: white;
+  background: hsl(245, 75%, 52%);
+  padding: 1.5vh 5vw;
+  border-radius: 10px;
+}
+
+.buttons .proceed:hover {
+  opacity: 0.75;
+}
+
+.buttons .cancel-order {
+  color: gray;
+  margin-top: 3vh;
+}
+
+.buttons .cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 376px) {
+  body {
+    background: hsl(225, 100%, 94%) url(./images/pattern-background-mobile.svg)
+      no-repeat;
+  }
+
+  .container {
+    width: 90vw;
+    margin-top: 15vh;
+  }
+
+  .content {
+    padding-right: 7vw;
+    padding-left: 7vw;
+    padding-bottom: 5vh;
+  }
+
+  .content p {
+    letter-spacing: 0.5px;
+    padding: 0 5vw;
+  }
+
+  .annual-plan {
+    padding: 2.5vh 4vw;
+  }
+
+  .annual-plan .pricing {
+    margin-right: 10vw;
+  }
+
+  .annual-plan h5 {
+    font-size: 0.9rem;
+    padding-bottom: 0.5vh;
+  }
+
+  .annual-plan a {
+    font-size: 13px;
+  }
+
+  .buttons .proceed {
+    padding: 2.4vh 8vw;
+  }
+
+  .buttons .cancel-order {
+    margin-top: 4vh;
+  }
+}
