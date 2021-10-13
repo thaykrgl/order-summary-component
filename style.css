@@ -8,11 +8,13 @@ body {
   font-size: 16px;
   font-family: "Red Hat Display", sans-serif;
   background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg)
-    no-repeat;
+    repeat-x;
+  background-position: top center;
 }
 
 .container {
-  width: 27vw;
+  width: 40vw;
+  max-width: 420px;
   margin: auto;
   margin-top: 20vh;
   text-align: center;
@@ -127,14 +129,15 @@ body {
 
 /* Media Queries */
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 576px) {
   body {
     background: hsl(225, 100%, 94%) url(./images/pattern-background-mobile.svg)
-      no-repeat;
+      repeat-x;
   }
 
   .container {
-    width: 90vw;
+    width: 95vw;
+    max-width: 360px;
     margin-top: 15vh;
   }
 
@@ -153,9 +156,9 @@ body {
     padding: 2.5vh 4vw;
   }
 
-  .annual-plan .pricing {
+  /* .annual-plan .pricing {
     margin-right: 10vw;
-  }
+  } */
 
   .annual-plan h5 {
     font-size: 0.9rem;
@@ -172,5 +175,12 @@ body {
 
   .buttons .cancel-order {
     margin-top: 4vh;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
+    width: 55vw;
+    max-width: 320px;
   }
 }
