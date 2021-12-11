@@ -39,7 +39,7 @@ body {
 }
 
 .content h2 {
-  padding-top: 4vh;
+  padding-top: 3vh;
   padding-bottom: 2vh;
   font-weight: 700;
 }
@@ -57,7 +57,7 @@ body {
 .annual-plan {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 4vh;
+  margin-bottom: 3vh;
   background: hsl(225, 100%, 98%);
   padding: 2vh 1.3vw;
   border-radius: 10px;
@@ -79,6 +79,7 @@ body {
 .annual-plan a {
   align-self: center;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .annual-plan a:hover {
@@ -144,7 +145,7 @@ body {
   .content {
     padding-right: 7vw;
     padding-left: 7vw;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
   }
 
   .content p {
@@ -153,16 +154,11 @@ body {
   }
 
   .annual-plan {
-    padding: 2.5vh 4vw;
+    padding: 1.5vh 4vw;
   }
-
-  /* .annual-plan .pricing {
-    margin-right: 10vw;
-  } */
 
   .annual-plan h5 {
     font-size: 0.9rem;
-    padding-bottom: 0.5vh;
   }
 
   .annual-plan a {
@@ -170,11 +166,11 @@ body {
   }
 
   .buttons .proceed {
-    padding: 2.4vh 8vw;
+    padding: 1.6vh 8vw;
   }
 
   .buttons .cancel-order {
-    margin-top: 4vh;
+    margin-top: 2.5vh;
   }
 }
 
