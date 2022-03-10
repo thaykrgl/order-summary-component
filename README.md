@@ -6,7 +6,7 @@ This is a solution to the [Order Summary Component](https://www.frontendmentor.i
 
 - [Overview](#overview)
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
@@ -20,10 +20,13 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-<img src="./images/order-summary-component-desktop.png" alt="osc-desktop">
-<img src="./images/order-summary-component-mobile.png" alt="osc-mobile">
+#### Desktop View
+<img src="./images/order-summary-component-desktop.png" alt="Desktop View">
+
+#### Mobile View
+<img src="./images/order-summary-component-mobile.png" alt="Mobile View">
 
 ### Links
 
@@ -34,12 +37,11 @@ Users should be able to:
 
 ### Built with
 
-- Google Fonts
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
 - Mobile-first workflow
+- Flexbox
 - Media Queries
+- Google Fonts
 
 ## Author
 
